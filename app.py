@@ -15,6 +15,7 @@ def hello_world():  # put application's code here
 def greet(name=""):
     return f"Hello {name}"
 
+
 @app.route('/convert/<celsius>')
 def convert_celsius(celsius):
     """Convert Celsius to Fahrenheit via URL."""
